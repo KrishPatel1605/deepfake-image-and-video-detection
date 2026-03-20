@@ -5,3 +5,6 @@ tensorflow
 opencv-python
 numpy
 pydantic
+google-generativeai
+python-dotenv
+pillow

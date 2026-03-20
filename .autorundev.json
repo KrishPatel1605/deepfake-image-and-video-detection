@@ -1,0 +1,10 @@
+{
+  "backend": {
+    "path": "./backend",
+    "start": "./run.ps1"
+  },
+  "frontend": {
+    "path": "./frontend",
+    "start": "npm run dev"
+  }
+}
