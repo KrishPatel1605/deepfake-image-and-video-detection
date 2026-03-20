@@ -185,11 +185,11 @@ export default function App() {
                     </h2>
                   </div>
                   
-                  {result.type === 'image' && (
+                  {/* {result.type === 'image' && (
                     <p className="text-gray-600 font-medium mt-2">
                       Confidence Score: <span className="font-bold text-lg">{(result.score * 100).toFixed(2)}%</span>
                     </p>
-                  )}
+                  )} */}
 
                   {/* Source Information / Location Tracing */}
                   {result.source_info && (
@@ -225,7 +225,7 @@ export default function App() {
                   <div className="w-full bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex-grow">
                     <h3 className="text-lg font-semibold text-slate-800 mb-4 flex items-center">
                       <div className="w-1.5 h-5 bg-indigo-500 rounded-full mr-2"></div>
-                      Extracted frames from the video
+                      Example extracted frames from the video
                     </h3>
                     <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-3">
                       {result.sample_frames.map((frameSrc, idx) => (
